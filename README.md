@@ -4,8 +4,11 @@ Tareas a Realizar
 
 No.   Nombre    No. Trabajo 
 1    Bryann     (2, 8, 14, 16, 20, 21)
+
 2    Diego      (3, 7, 9, 13, 17, 21)
+
 3    Dary       (1, 5, 11, 15, 19, 21)
+
 4    Cristian   (4, 6, 10, 12, 18, 21)
 
 Descripcion de los trabajos
