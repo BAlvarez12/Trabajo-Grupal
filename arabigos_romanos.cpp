@@ -6,7 +6,7 @@ int main(){
 	while(1){
 		int numero,unidades,decenas,centenas,millares;
 		
-		cout << "\nIngresa un numero entre [1-3999] para convertirlo a romano: ";
+		cout << "\nIngresa un numero entre [1-1000] para convertirlo a romano: ";
 		cin >> numero;
 		
 		unidades = numero%10; numero /= 10;
@@ -16,8 +16,6 @@ int main(){
 		
 		switch(millares){
 			case 1: cout << "M"; break;
-			case 2: cout << "MM"; break;
-			case 3: cout << "MMM"; break;
 		}
 		
 		switch(centenas){
