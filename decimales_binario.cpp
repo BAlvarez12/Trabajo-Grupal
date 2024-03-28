@@ -1,21 +1,22 @@
-/Conversión de número decimal a número binario/
+//Conversión de número decimal a número binario
 
 #include <iostream>
 
+using namespace std;
 int main() {	
 	int n, c, k;
 	cout << "Ingrese numero decimal: "<<endl;
-	cin >> "%d",&n;
+	cin >> n;
 
-	cout <<"%d en binario es: " << n << endl;
+	cout <<"el numero en binario es: " << n << endl;
 
 	for (c=7;c>=0;c--){
 		k = n>>c;
 		if (k&1){
-		cout << "1"<<endl;
+		cout << "1";
 		}else {
-		cout <<"0"<<endl;
+		cout <<"0";
 		}
-	
+	}
 	return 0;
 }
