@@ -4,6 +4,7 @@
 #include "Hipotenusa.cpp"
 #include "Puntero_pantalla.cpp"
 #include "sum_res_mul_div"
+#include "arabigos_romanos"
 using namespace std;
 
 
@@ -17,6 +18,7 @@ int main(){
 			cout<<""<<endl;
 			cout<<"1. Suma, resta, multiplicacion y division: "<<endl;
 			cout<<"2. Determinar Numero Par o Impar: "<<endl;
+			cout<<"5. Convertir numeros arabigos a romanos: "<<endl;
 				cout<<"8. Tabla de Multiplicar:"<<endl;
 				 	cout<<"14. Puntero en Pantalla:"<<endl;
 						cout<<"16. Calcular la Hipotenusa:  "<<endl;
@@ -32,6 +34,11 @@ int main(){
 		if(num == 2){
 		cout<<"_____Ejecutando Numeros Par o Impar_______"<<endl;
 	 	par_o_impar();
+		}else 
+
+		if(num == 5){
+		cout<<"_____Ejecutando Convertir numero arabigos a romanos_______"<<endl;
+	 	arabigos_romanos();
 		}else 
 				if(num == 8){
 				cout<<"_______Ejecutando Tabla de Multiplicar________"<<endl;
