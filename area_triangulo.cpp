@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main()
+void area_triangulo ()
 {
     int altura,base,area;
     cout<<"ingresa base"<<endl;
