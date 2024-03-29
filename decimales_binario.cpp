@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-int main() {	
+void decimales_binario () {	
 	int n, c, k;
 	cout << "Ingrese numero decimal: "<<endl;
 	cin >> n;
