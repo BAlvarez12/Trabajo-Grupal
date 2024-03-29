@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+void arabigos_romanos (){
 	while(1){
 		int numero,unidades,decenas,centenas,millares;
 		
