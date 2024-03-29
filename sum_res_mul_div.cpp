@@ -2,7 +2,7 @@
 
 #include <iostream>
 using namespace std;
-int main() {
+void sum_res_mul_div () {
 
 int num1;
 int num2;
