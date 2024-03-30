@@ -1,5 +1,3 @@
-//sum, Subtraction, Multiplication and Division of two numbers
-
 #include <iostream>
 using namespace std;
 void sum_res_mul_div () {
@@ -16,6 +14,6 @@ cout << "resta: " << num1-num2 << endl;
 cout << "Multiplicacion: " << num1*num2 << endl;
 cout << "division: " << num1/num2 << endl;
 
-    return ;
+    return;
 }
 
