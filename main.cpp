@@ -6,11 +6,10 @@
 #include "Anno bisiesto.cpp" //Bryann
 #include "Convertidor de medidas.cpp" // Bryann
 #include "enteros a letras.cpp" // Bryann
-
-// #include "sum_res_mul_div.cpp"// Dary
-// #include "arabigos_romanos.cpp" // Dary
-// #include "decimales_binario.cpp"// Dary
-// #include "area_triangulo.cpp" // Dary
+#include "sum_res_mul_div.cpp"// Dary
+#include "arabigos_romanos.cpp" // Dary
+#include "decimales_binario.cpp"// Dary
+#include "area_triangulo.cpp" // Dary
 
 using namespace std;
 int main(){
