@@ -16,6 +16,6 @@ cout << "resta: " << num1-num2 << endl;
 cout << "Multiplicacion: " << num1*num2 << endl;
 cout << "division: " << num1/num2 << endl;
 
-    return 0;
+    return ;
 }
 
