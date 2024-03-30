@@ -1,5 +1,3 @@
-//Conversión de número decimal a número binario
-
 #include <iostream>
 
 using namespace std;
