@@ -11,6 +11,7 @@
 #include "decimales_binario.cpp"// Dary
 #include "area_triangulo.cpp" // Dary
 #include "figuras_basicas.cpp" // Dary 
+#include "cajero" // Dary 
 
 using namespace std;
 int main(){
@@ -29,11 +30,12 @@ int main(){
 			cout<<"11. Conversion de numeros decimales a binarios: "<<endl;
 			cout<<"13. Crear Figuras Geométricas Básicas: "<<endl;
 			cout<<"14. Puntero en Pantalla:"<<endl;
+			cout<<"15. cajero: "<<endl;
 			cout<<"16. Calcular la Hipotenusa:  "<<endl;
 			cout<<"19. Calcular el area de un triangulo: "<<endl;
-			cout<<"21. Validar anno bisiesto: "<<endl;
+			cout<<"21. Validar anno bisiesto: "<<endl; // validar ya que la opcion 21 es el main, att dary 
 			cout<<"Ingrese 0 para salir "<<endl;
-			cout<<""<<endl;
+			cout<<" "<<endl;
 			cout<<"___________________________________"<<endl;
 			cin>>num;	
 			
@@ -50,7 +52,6 @@ int main(){
 		if(num == 6){
 		cout<<"_______Ejecutando Convertidor de numeros a letras________"<<endl;
 		numero_entero();
-		
 		}else  
 		
 		if(num == 8){
@@ -68,7 +69,7 @@ int main(){
 		hipotenusa();
 		}else 
 
-		if(num == 21){
+		if(num == 21){  // validar ya que la opcion 21 es el main, att dary 
 		cout<<"_______Ejecutando verificador de anno bisiesto________"<<endl;
 		anno();
 		}else 
@@ -84,7 +85,7 @@ int main(){
 			arabigos_romanos();
 			}else 
 
-			if(num == 5){
+			if(num == 11){
 			cout<<"_______Ejecutando Conversión de números decimales a binario________"<<endl;
 			decimales_binario();
 			}else 
@@ -97,6 +98,11 @@ int main(){
 			if(num == 19){ //19. Libre (pueden realizar el programa que ustedes quieran)
 			cout<<"_______Ejecutando calcular area triangulo________"<<endl;
 			area_triangulo();
+			}else 
+
+			if(num == 15){ 
+			cout<<"_______Ejecutando Simulador de un cajero automatico________"<<endl;
+			cajero();
 			}else 
 	// fin if dary
 				
