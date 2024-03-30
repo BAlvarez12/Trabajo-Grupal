@@ -17,5 +17,5 @@ void area_triangulo ()
     cout<<"el area es: "<<area;
     
 
-    return 0;
+    return;
 }
