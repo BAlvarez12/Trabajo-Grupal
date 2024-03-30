@@ -18,5 +18,5 @@ void decimales_binario () {
 		cout <<"0";
 		}
 	}
-	return 0;
+	return;
 }
