@@ -81,5 +81,5 @@ void cajero () {
         }
     } while (opcion != 4);
 
-    return 0;
+    return;
 }
