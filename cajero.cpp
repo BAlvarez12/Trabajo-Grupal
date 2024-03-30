@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Estructura para almacenar la información de la cuenta del usuario
+
 struct Cuenta {
     string nombre;
     int numeroCuenta;
@@ -12,7 +12,7 @@ struct Cuenta {
     Cuenta(string n, int num, float s) : nombre(n), numeroCuenta(num), saldo(s) {}
 };
 
-// Función para mostrar el menú y obtener la opción del usuario
+
 int mostrarMenu() {
     int opcion;
     cout << "Bienvenido al Cajero Automático\n";
@@ -25,12 +25,12 @@ int mostrarMenu() {
     return opcion;
 }
 
-// Función para consultar saldo
+
 void consultarSaldo(Cuenta cuenta) {
     cout << "Saldo actual: Q" << cuenta.saldo << endl;
 }
 
-// Función para depositar dinero
+
 void depositarDinero(Cuenta &cuenta) {
     float cantidad;
     cout << "Ingrese la cantidad a depositar (en quetzales): Q";
@@ -39,7 +39,7 @@ void depositarDinero(Cuenta &cuenta) {
     cout << "Depósito realizado con éxito\n";
 }
 
-// Función para retirar dinero
+
 void retirarDinero(Cuenta &cuenta) {
     float cantidad;
     cout << "Ingrese la cantidad a retirar (en quetzales, múltiplo de 50): Q";
@@ -56,7 +56,7 @@ void retirarDinero(Cuenta &cuenta) {
 }
 
 void cajero () {
-    // Crear una cuenta de ejemplo
+
     Cuenta cuenta("Usuario Ejemplo", 123456789, 1000.0);
 
     int opcion;
