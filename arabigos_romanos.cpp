@@ -55,5 +55,5 @@ void arabigos_romanos (){
 		}
 		
 	}
-	return 0;
+	return ;
 }
