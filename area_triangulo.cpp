@@ -1,6 +1,3 @@
-// inciso 19. Libre (pueden realizar el programa que ustedes quieran)
-// programa para calcular el area de un triangulo 
-
 #include <iostream>
 
 using namespace std;
