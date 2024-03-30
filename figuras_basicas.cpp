@@ -2,13 +2,12 @@
 
 using namespace std;
 
-// Clase base para figuras geométricas
+
 class Figura {
 public:
     virtual void dibujar() const = 0;
 };
 
-// Clase para cuadrados
 class Cuadrado : public Figura {
 private:
     int lado;
@@ -24,7 +23,6 @@ public:
     }
 };
 
-// Clase para triángulos
 class Triangulo : public Figura {
 private:
     int altura;
@@ -40,7 +38,6 @@ public:
     }
 };
 
-// Clase para círculos
 class Circulo : public Figura {
 private:
     int radio;
