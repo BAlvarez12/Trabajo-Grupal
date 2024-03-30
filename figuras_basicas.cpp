@@ -74,5 +74,5 @@ void figuras_basicas  () {
     cout << "Círculo:" << endl;
     circulo.dibujar();
 
-    return 0;
+    return;
 }
