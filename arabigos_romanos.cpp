@@ -6,7 +6,7 @@ void arabigos_romanos (){
 	while(1){
 		int numero,unidades,decenas,centenas,millares;
 		
-		cout << "\nIngresa un numero entre [1-1000] para convertirlo a romano: ";
+		cout << "Ingresa un numero entre [1-1000] para convertirlo a romano: ";
 		cin >> numero;
 		
 		unidades = numero%10; numero /= 10;
