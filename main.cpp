@@ -10,6 +10,7 @@
 #include "arabigos_romanos.cpp" // Dary
 #include "decimales_binario.cpp"// Dary
 #include "area_triangulo.cpp" // Dary
+#include "figuras_basicas.cpp" // Dary 
 
 using namespace std;
 int main(){
@@ -26,6 +27,7 @@ int main(){
 			cout<<"6. Numeros enteros con decimal a letras: "<<endl;
 			cout<<"8. Tabla de Multiplicar:"<<endl;
 			cout<<"11. Conversion de numeros decimales a binarios: "<<endl;
+			cout<<"13. Crear Figuras Geométricas Básicas: "<<endl;
 			cout<<"14. Puntero en Pantalla:"<<endl;
 			cout<<"16. Calcular la Hipotenusa:  "<<endl;
 			cout<<"19. Calcular el area de un triangulo: "<<endl;
@@ -70,7 +72,34 @@ int main(){
 		cout<<"_______Ejecutando verificador de anno bisiesto________"<<endl;
 		anno();
 		}else 
-								
+
+	// inicio if dary 
+			if(num == 1){
+			cout<<"_______Ejecutando Suma resta multiplicacion y divicion ________"<<endl;
+			sum_res_mul_div();
+			}else 
+
+			if(num == 5){
+			cout<<"_______Ejecutando Conversión de números arábigos a romanos ________"<<endl;
+			arabigos_romanos();
+			}else 
+
+			if(num == 5){
+			cout<<"_______Ejecutando Conversión de números decimales a binario________"<<endl;
+			decimales_binario();
+			}else 
+
+			if(num == 13){
+			cout<<"_______Ejecutando Crear Figuras Geométricas Básicas________"<<endl;
+			figuras_basicas();
+			}else 
+
+			if(num == 19){ //19. Libre (pueden realizar el programa que ustedes quieran)
+			cout<<"_______Ejecutando calcular area triangulo________"<<endl;
+			area_triangulo();
+			}else 
+	// fin if dary
+				
 				if(num == 0){
 				cout<<"Saliendo del Programa"<<endl;
 				break;
