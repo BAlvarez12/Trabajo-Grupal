@@ -150,7 +150,7 @@ int main(){
 	 	Tablas_multiplicar_1_al_10();
 		}else 
 
-		if(num == 9){
+		if(num == 17){
 		cout<<"_____Ejecutando Mayor de tres numeros _______"<<endl;
 	 	Mayor_de_tres_numeros();
 		}else
