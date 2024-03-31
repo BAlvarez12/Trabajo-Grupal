@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Función para convertir decimal a hexadecimal
+// FunciÃ³n para convertir decimal a hexadecimal
 string decimalToHexadecimal(int decimalNumber) {
     stringstream ss;
     ss << hex << decimalNumber;
@@ -14,15 +14,15 @@ string decimalToHexadecimal(int decimalNumber) {
 int main() {
     int decimalNumber;
 
-    // Solicitar al usuario que ingrese un número decimal
-    cout << "Ingresa un número decimal: ";
+    // Solicitar al usuario que ingrese un nÃºmero decimal
+    cout << "Ingresa un nÃºmero decimal: ";
     cin >> decimalNumber;
 
-    // Convertir el número decimal a hexadecimal
+    // Convertir el nÃºmero decimal a hexadecimal
     string hexadecimalNumber = decimalToHexadecimal(decimalNumber);
 
     // Mostrar el resultado
-    cout << "El número hexadecimal equivalente es: " << hexadecimalNumber << endl;
+    cout << "El nÃºmero hexadecimal equivalente es: " << hexadecimalNumber << endl;
 
     return 0;
 }
