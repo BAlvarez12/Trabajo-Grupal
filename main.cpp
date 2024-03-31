@@ -12,6 +12,7 @@
 #include "area_triangulo.cpp" // Dary
 #include "figuras_basicas.cpp" // Dary 
 #include "cajero" // Dary 
+#include "palabra o numero polindromo" //Cristian
 
 using namespace std;
 int main(){
@@ -24,6 +25,7 @@ int main(){
 			cout<<"1. Suma, resta, multiplicacion y division: "<<endl;
 			cout<<"2. Determinar Numero Par o Impar: "<<endl;
 			cout<<"3. Convertidor de medidas: "<<endl;
+			cout<<"4. Palabra o numero polindromo: "<<endl;
 			cout<<"5. Convertir numeros arabigos a romanos: "<<endl;
 			cout<<"6. Numeros enteros con decimal a letras: "<<endl;
 			cout<<"8. Tabla de Multiplicar:"<<endl;
@@ -105,6 +107,11 @@ int main(){
 			cajero();
 			}else 
 	// fin if dary
+
+			if(num == 4){
+		cout<<"_____Ejecutando determinar si una palabra o numero es polindromo_______"<<endl;
+	 	palabra_numero_polindromo();
+		}else  
 				
 				if(num == 0){
 				cout<<"Saliendo del Programa"<<endl;
