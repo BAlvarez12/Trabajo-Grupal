@@ -13,6 +13,7 @@
 #include "figuras_basicas.cpp" // Dary 
 #include "cajero" // Dary 
 #include "palabra o numero polindromo" //Cristian
+#include "convesion numeros enteros a letras" //Cristian
 
 using namespace std;
 int main(){
@@ -28,6 +29,7 @@ int main(){
 			cout<<"4. Palabra o numero polindromo: "<<endl;
 			cout<<"5. Convertir numeros arabigos a romanos: "<<endl;
 			cout<<"6. Numeros enteros con decimal a letras: "<<endl;
+			cout<<"7. Conversion numeros enteros con decimal a letras: "<<endl;
 			cout<<"8. Tabla de Multiplicar:"<<endl;
 			cout<<"11. Conversion de numeros decimales a binarios: "<<endl;
 			cout<<"13. Crear Figuras Geométricas Básicas: "<<endl;
@@ -111,6 +113,11 @@ int main(){
 			if(num == 4){
 		cout<<"_____Ejecutando determinar si una palabra o numero es polindromo_______"<<endl;
 	 	palabra_numero_polindromo();
+		}else  
+
+		if(num == 4){
+		cout<<"_____Ejecutando Numeros enteros con decimal a letras_______"<<endl;
+	 	numeros_enteros_con_decimal_a_letras();
 		}else  
 				
 				if(num == 0){
