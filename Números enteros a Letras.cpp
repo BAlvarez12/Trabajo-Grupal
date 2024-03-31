@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
 
-// Función para convertir números enteros a letras
+// FunciÃ³n para convertir nÃºmeros enteros a letras
 std::string convertirNumeroALetras(int numero) {
     const std::string unidades[] = {"", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve"};
-    const std::string especiales[] = {"diez", "once", "doce", "trece", "catorce", "quince", "dieciséis", "diecisiete", "dieciocho", "diecinueve"};
+    const std::string especiales[] = {"diez", "once", "doce", "trece", "catorce", "quince", "diecisÃ©is", "diecisiete", "dieciocho", "diecinueve"};
     const std::string decenas[] = {"", "", "veinte", "treinta", "cuarenta", "cincuenta", "sesenta", "setenta", "ochenta", "noventa"};
 
     if (numero < 10) {
@@ -22,19 +22,19 @@ std::string convertirNumeroALetras(int numero) {
     } else if (numero == 100) {
         return "cien";
     } else {
-        return "Número fuera de rango";
+        return "NÃºmero fuera de rango";
     }
 }
 
 int main() {
     int numero;
-    std::cout << "Ingrese un número entre 1 y 100: ";
+    std::cout << "Ingrese un nÃºmero entre 1 y 100: ";
     std::cin >> numero;
 
     if (numero >= 1 && numero <= 100) {
-        std::cout << "El número " << numero << " en letras es: " << convertirNumeroALetras(numero) << std::endl;
+        std::cout << "El nÃºmero " << numero << " en letras es: " << convertirNumeroALetras(numero) << std::endl;
     } else {
-        std::cout << "Número fuera de rango." << std::endl;
+        std::cout << "NÃºmero fuera de rango." << std::endl;
     }
 
     return 0;
