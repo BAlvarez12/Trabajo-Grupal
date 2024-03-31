@@ -36,7 +36,7 @@ int main(){
 			cout<<"6. Numeros enteros con decimal a letras: "<<endl;
 			cout<<"7. Conversion numeros enteros con decimal a letras: "<<endl;
 			cout<<"8. Tabla de Multiplicar:"<<endl;
-			cout<<"8. Tablas de Multiplicar del 1 al 10:"<<endl;
+			cout<<"9. Tablas de Multiplicar del 1 al 10:"<<endl;
 			cout<<"10. Multiplicacion manual:"<<endl;
 			cout<<"11. Conversion de numeros decimales a binarios: "<<endl;
 			cout<<"12. Numeros decimales a hexadecimales:"<<endl;
