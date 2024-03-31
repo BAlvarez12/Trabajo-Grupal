@@ -17,6 +17,7 @@
 #include "Multiplicacion manual" //Cristian
 #include "Numeros decimales a hexadecimales" //Cristian
 #include "Matrix 3x3" //Cristian
+#include "Tablas de multiplicar 1 al 10" //Cristian
 
 using namespace std;
 int main(){
@@ -34,6 +35,7 @@ int main(){
 			cout<<"6. Numeros enteros con decimal a letras: "<<endl;
 			cout<<"7. Conversion numeros enteros con decimal a letras: "<<endl;
 			cout<<"8. Tabla de Multiplicar:"<<endl;
+			cout<<"8. Tablas de Multiplicar del 1 al 10:"<<endl;
 			cout<<"10. Multiplicacion manual:"<<endl;
 			cout<<"11. Conversion de numeros decimales a binarios: "<<endl;
 			cout<<"12. Numeros decimales a hexadecimales:"<<endl;
@@ -139,7 +141,12 @@ int main(){
 		if(num == 18){
 		cout<<"_____Ejecutando Matrix 3x3 _______"<<endl;
 	 	Matrix_3x3();
-		}else  
+		}else
+
+		if(num == 9){
+		cout<<"_____Ejecutando Tablas de multiplicar del 1 al 10 _______"<<endl;
+	 	Tablas_multiplicar_1_al_10();
+		}else 
 		
 				
 				if(num == 0){
