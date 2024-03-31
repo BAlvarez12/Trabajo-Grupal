@@ -14,6 +14,7 @@
 #include "cajero" // Dary 
 #include "palabra o numero polindromo" //Cristian
 #include "convesion numeros enteros a letras" //Cristian
+#include "Multiplicacion manual" //Cristian
 
 using namespace std;
 int main(){
@@ -31,6 +32,7 @@ int main(){
 			cout<<"6. Numeros enteros con decimal a letras: "<<endl;
 			cout<<"7. Conversion numeros enteros con decimal a letras: "<<endl;
 			cout<<"8. Tabla de Multiplicar:"<<endl;
+			cout<<"10. Multiplicacion manual:"<<endl;
 			cout<<"11. Conversion de numeros decimales a binarios: "<<endl;
 			cout<<"13. Crear Figuras Geométricas Básicas: "<<endl;
 			cout<<"14. Puntero en Pantalla:"<<endl;
@@ -110,14 +112,19 @@ int main(){
 			}else 
 	// fin if dary
 
-			if(num == 4){
+		if(num == 4){
 		cout<<"_____Ejecutando determinar si una palabra o numero es polindromo_______"<<endl;
 	 	palabra_numero_polindromo();
 		}else  
 
-		if(num == 4){
+		if(num == 6){
 		cout<<"_____Ejecutando Numeros enteros con decimal a letras_______"<<endl;
 	 	numeros_enteros_con_decimal_a_letras();
+		}else  
+
+		if(num == 10){
+		cout<<"_____Ejecutando Crear de forma grafica multiplicacion manual _______"<<endl;
+	 	multiplicacion_manual();
 		}else  
 				
 				if(num == 0){
