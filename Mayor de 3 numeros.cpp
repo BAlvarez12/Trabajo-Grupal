@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-
+// El programa solicita 3 numeros e identifica el mayor de los 3
 int main()
 {
 	int n1, n2, n3;
