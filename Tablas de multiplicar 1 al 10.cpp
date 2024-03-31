@@ -1,5 +1,5 @@
 #include <iostream>
-
+//EL programa da las tablas del 1 al 10
 int main() {
     // Ciclo externo para iterar sobre los multiplicandos del 1 al 10
     for (int multiplicando = 1; multiplicando <= 10; ++multiplicando) {
