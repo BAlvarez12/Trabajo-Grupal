@@ -18,6 +18,7 @@
 #include "Numeros decimales a hexadecimales" //Cristian
 #include "Matrix 3x3" //Cristian
 #include "Tablas de multiplicar 1 al 10" //Cristian
+#include "Mayor de tres numeros" //Cristian
 
 using namespace std;
 int main(){
@@ -43,6 +44,7 @@ int main(){
 			cout<<"14. Puntero en Pantalla:"<<endl;
 			cout<<"15. cajero: "<<endl;
 			cout<<"16. Calcular la Hipotenusa:  "<<endl;
+			cout<<"17. Mayor de tres numeros:  "<<endl;
 			cout<<"18. Matix 3x3:"<<endl;
 			cout<<"19. Calcular el area de un triangulo: "<<endl;
 			cout<<"21. Validar anno bisiesto: "<<endl; // validar ya que la opcion 21 es el main, att dary 
@@ -147,6 +149,11 @@ int main(){
 		cout<<"_____Ejecutando Tablas de multiplicar del 1 al 10 _______"<<endl;
 	 	Tablas_multiplicar_1_al_10();
 		}else 
+
+		if(num == 9){
+		cout<<"_____Ejecutando Mayor de tres numeros _______"<<endl;
+	 	Mayor_de_tres_numeros();
+		}else
 		
 				
 				if(num == 0){
