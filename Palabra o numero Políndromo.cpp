@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-
+//Determina si el una palabra o numero polindromo
 bool esPalindromo(string cadena) {
   int longitud = cadena.length();
   for (int i = 0; i < longitud / 2; i++) {
@@ -15,13 +15,13 @@ bool esPalindromo(string cadena) {
 
 int main() {
   string cadena;
-  cout << "Ingrese una palabra o un número: ";
+  cout << "Ingrese una palabra o un nÃºmero: ";
   cin >> cadena;
 
   if (esPalindromo(cadena)) {
-    cout << "La cadena " << cadena << " es un palíndromo." << endl;
+    cout << "La cadena " << cadena << " es un palÃ­ndromo." << endl;
   } else {
-    cout << "La cadena " << cadena << " no es un palíndromo." << endl;
+    cout << "La cadena " << cadena << " no es un palÃ­ndromo." << endl;
   }
 
   return 0;
