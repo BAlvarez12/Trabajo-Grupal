@@ -15,6 +15,7 @@
 #include "palabra o numero polindromo" //Cristian
 #include "convesion numeros enteros a letras" //Cristian
 #include "Multiplicacion manual" //Cristian
+#include "Numeros decimales a hexadecimales" //Cristian
 
 using namespace std;
 int main(){
@@ -34,6 +35,7 @@ int main(){
 			cout<<"8. Tabla de Multiplicar:"<<endl;
 			cout<<"10. Multiplicacion manual:"<<endl;
 			cout<<"11. Conversion de numeros decimales a binarios: "<<endl;
+			cout<<"12. Numeros decimales a hexadecimales:"<<endl;
 			cout<<"13. Crear Figuras Geométricas Básicas: "<<endl;
 			cout<<"14. Puntero en Pantalla:"<<endl;
 			cout<<"15. cajero: "<<endl;
@@ -126,6 +128,12 @@ int main(){
 		cout<<"_____Ejecutando Crear de forma grafica multiplicacion manual _______"<<endl;
 	 	multiplicacion_manual();
 		}else  
+
+		if(num == 12){
+		cout<<"_____Ejecutando Conversion de numeros decimales a hexadecimales _______"<<endl;
+	 	numeros_decimales_a_hexadecimales();
+		}else  
+		
 				
 				if(num == 0){
 				cout<<"Saliendo del Programa"<<endl;
