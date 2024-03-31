@@ -16,6 +16,7 @@
 #include "convesion numeros enteros a letras" //Cristian
 #include "Multiplicacion manual" //Cristian
 #include "Numeros decimales a hexadecimales" //Cristian
+#include "Matrix 3x3" //Cristian
 
 using namespace std;
 int main(){
@@ -40,6 +41,7 @@ int main(){
 			cout<<"14. Puntero en Pantalla:"<<endl;
 			cout<<"15. cajero: "<<endl;
 			cout<<"16. Calcular la Hipotenusa:  "<<endl;
+			cout<<"18. Matix 3x3:"<<endl;
 			cout<<"19. Calcular el area de un triangulo: "<<endl;
 			cout<<"21. Validar anno bisiesto: "<<endl; // validar ya que la opcion 21 es el main, att dary 
 			cout<<"Ingrese 0 para salir "<<endl;
@@ -132,6 +134,11 @@ int main(){
 		if(num == 12){
 		cout<<"_____Ejecutando Conversion de numeros decimales a hexadecimales _______"<<endl;
 	 	numeros_decimales_a_hexadecimales();
+		}else 
+
+		if(num == 18){
+		cout<<"_____Ejecutando Matrix 3x3 _______"<<endl;
+	 	Matrix_3x3();
 		}else  
 		
 				
