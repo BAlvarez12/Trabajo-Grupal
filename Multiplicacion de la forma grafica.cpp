@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+void multiplicacion_forma_grafica() {
     // Solicitar al usuario los números a multiplicar
     int multiplicand, multiplier;
     cout << "Ingrese el multiplicando: ";
@@ -19,5 +19,5 @@ int main() {
     cout << "Multiplicador: " << multiplier << endl;
     cout << "Resultado: " << result << endl;
 
-    return 0;
+    system("pause");
 }
