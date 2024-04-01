@@ -13,10 +13,10 @@
 #include "figuras_basicas.cpp" // Dary 
 #include "cajero" // Dary 
 #include "palabra o numero polindromo" //Cristian
-#include "convesion numeros enteros a letras" //Cristian
-#include "Multiplicacion manual" //Cristian
+#include "Convesion numeros enteros a letras" //Cristian
+#include "Multiplicacion forma grafica" //Cristian
 #include "Numeros decimales a hexadecimales" //Cristian
-#include "Matrix 3x3" //Cristian
+#include "Matriz 3x3" //Cristian
 #include "Tablas de multiplicar 1 al 10" //Cristian
 #include "Mayor de tres numeros" //Cristian
 
@@ -33,11 +33,11 @@ int main(){
 			cout<<"3. Convertidor de medidas: "<<endl;
 			cout<<"4. Palabra o numero polindromo: "<<endl;
 			cout<<"5. Convertir numeros arabigos a romanos: "<<endl;
-			cout<<"6. Numeros enteros con decimal a letras: "<<endl;
+			cout<<"6. Conversion numeros enteros a letras: "<<endl;
 			cout<<"7. Conversion numeros enteros con decimal a letras: "<<endl;
 			cout<<"8. Tabla de Multiplicar:"<<endl;
 			cout<<"9. Tablas de Multiplicar del 1 al 10:"<<endl;
-			cout<<"10. Multiplicacion manual:"<<endl;
+			cout<<"10. Multiplicacion forma grafrica:"<<endl;
 			cout<<"11. Conversion de numeros decimales a binarios: "<<endl;
 			cout<<"12. Numeros decimales a hexadecimales:"<<endl;
 			cout<<"13. Crear Figuras Geométricas Básicas: "<<endl;
@@ -45,7 +45,7 @@ int main(){
 			cout<<"15. cajero: "<<endl;
 			cout<<"16. Calcular la Hipotenusa:  "<<endl;
 			cout<<"17. Mayor de tres numeros:  "<<endl;
-			cout<<"18. Matix 3x3:"<<endl;
+			cout<<"18. Matiz 3x3:"<<endl;
 			cout<<"19. Calcular el area de un triangulo: "<<endl;
 			cout<<"21. Validar anno bisiesto: "<<endl; // validar ya que la opcion 21 es el main, att dary 
 			cout<<"Ingrese 0 para salir "<<endl;

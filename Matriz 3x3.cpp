@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+void matriz_3x3() {
   // Declaramos una matriz de 3x3
   int matriz[3][3];
 
@@ -23,5 +23,5 @@ int main() {
   // Imprimimos el determinante
   cout << "El determinante de la matriz es: " << determinante << endl;
 
-  return 0;
+  system("pause");
 }
