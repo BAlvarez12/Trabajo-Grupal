@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-// El programa solicita 3 numeros e identifica el mayor de los 3
+
 void mayor_de_tres_numeros()
 {
 	int n1, n2, n3;
@@ -15,19 +15,19 @@ void mayor_de_tres_numeros()
 	
 	if(n1>n2 & n1>n3)
 	{
-		cout<< "El numero mayor es: " << n1;
+		cout<<" El numero mayor es: "<<n1<<endl;
 	}
 	else
 	{
 		if(n2>n1 & n2>n3)
 		{
-			cout<< "El numero mayor es: " << n2;
+			cout<<" El numero mayor es: "<<n2<<endl;
 		}
 		else
 		{
 			if(n3>n1 & n3>n2)
 			{
-				cout<< "El numero mayor es: " << n3;
+				cout<< " El numero mayor es: "<<n3<<endl;
 			}
 		}
 	}

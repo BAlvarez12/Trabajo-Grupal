@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-// Función para convertir números enteros a letras
+
 std::string convertirNumeroALetras(int numero) {
     const std::string unidades[] = {"", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve"};
     const std::string especiales[] = {"diez", "once", "doce", "trece", "catorce", "quince", "dieciséis", "diecisiete", "dieciocho", "diecinueve"};
@@ -22,19 +22,19 @@ std::string convertirNumeroALetras(int numero) {
     } else if (numero == 100) {
         return "cien";
     } else {
-        return "Número fuera de rango";
+        return "Numero fuera de rango";
     }
 }
 
 void numeros_enteros_a_letras() {
     int numero;
-    std::cout << "Ingrese un número entre 1 y 100: ";
+    std::cout << "Ingrese un numero entre 1 y 100: ";
     std::cin >> numero;
 
     if (numero >= 1 && numero <= 100) {
-        std::cout << "El número " << numero << " en letras es: " << convertirNumeroALetras(numero) << std::endl;
+        std::cout << "El numero " << numero << " en letras es: " << convertirNumeroALetras(numero) << std::endl;
     } else {
-        std::cout << "Número fuera de rango." << std::endl;
+        std::cout << "Numero fuera de rango." << std::endl;
     }
 
     system("pause");

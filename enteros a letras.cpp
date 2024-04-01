@@ -15,7 +15,7 @@ string convertirNumeroEnPalabras(int numero) {
 
 void numero_entero() {
     double numero;
-    cout<<"Ingrese un numero para convertirlo a letras : ";
+    cout<<"Ingrese un numero decimal para convertirlo a letras : ";
     cin>>numero;
 
     int parte_entera=static_cast<int>(numero);

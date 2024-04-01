@@ -6,21 +6,24 @@
 #include "Anno bisiesto.cpp" //Bryann
 #include "Convertidor de medidas.cpp" // Bryann
 #include "enteros a letras.cpp" // Bryann
+
 #include "sum_res_mul_div.cpp"// Dary
 #include "arabigos_romanos.cpp" // Dary
 #include "decimales_binario.cpp"// Dary
 #include "area_triangulo.cpp" // Dary
 #include "figuras_basicas.cpp" // Dary 
-#include "cajero" // Dary 
-#include "palabra o numero polindromo" //Cristian
-#include "Convesion numeros enteros a letras" //Cristian
-#include "Multiplicacion forma grafica" //Cristian
-#include "Numeros decimales a hexadecimales" //Cristian
-#include "Matriz 3x3" //Cristian
-#include "Tablas de multiplicar 1 al 10" //Cristian
-#include "Mayor de tres numeros" //Cristian
+#include "cajero.cpp" // Dary 
+
+#include "Palabra o numero Polindromo.cpp" //Cristian
+#include "Conversion de numeros enteros a letras.cpp" //Cristian
+#include "Multiplicacion forma grafica.cpp" //Cristian
+#include "Numeros decimales a hexadecimales.cpp" //Cristian
+#include "Matriz 3x3.cpp" //Cristian
+#include "Tablas de multiplicar 1 al 10.cpp" //Cristian
+#include "Mayor de 3 numeros.cpp" //Cristian
 
 using namespace std;
+
 int main(){
 
 	int num;	
@@ -47,7 +50,7 @@ int main(){
 			cout<<"17. Mayor de tres numeros:  "<<endl;
 			cout<<"18. Matiz 3x3:"<<endl;
 			cout<<"19. Calcular el area de un triangulo: "<<endl;
-			cout<<"21. Validar anno bisiesto: "<<endl; // validar ya que la opcion 21 es el main, att dary 
+			cout<<"20. Validar anno bisiesto: "<<endl;  
 			cout<<"Ingrese 0 para salir "<<endl;
 			cout<<" "<<endl;
 			cout<<"___________________________________"<<endl;
@@ -63,7 +66,7 @@ int main(){
 		convertidor_medidas();
 		}else  
 		
-		if(num == 6){
+		if(num == 7){
 		cout<<"_______Ejecutando Convertidor de numeros a letras________"<<endl;
 		numero_entero();
 		}else  
@@ -83,7 +86,7 @@ int main(){
 		hipotenusa();
 		}else 
 
-		if(num == 21){  // validar ya que la opcion 21 es el main, att dary 
+		if(num == 20){  // validar ya que la opcion 21 es el main, att dary 
 		cout<<"_______Ejecutando verificador de anno bisiesto________"<<endl;
 		anno();
 		}else 
@@ -122,37 +125,37 @@ int main(){
 
 		if(num == 4){
 		cout<<"_____Ejecutando determinar si una palabra o numero es polindromo_______"<<endl;
-	 	palabra_o_numero_polindromo();
+	 	Palabra_numero_polindromo();
 		}else  
 
 		if(num == 6){
 		cout<<"_____Ejecutando Numeros enteros con decimal a letras_______"<<endl;
-	 	Conversion_numeros_enteros_a_letras();
+	 	numeros_enteros_a_letras();
 		}else  
 
 		if(num == 10){
 		cout<<"_____Ejecutando Crear de forma grafica multiplicacion manual _______"<<endl;
-	 	Multiplicacion_forma_grafica();
+	 	multiplicacion_grafica();
 		}else  
 
 		if(num == 12){
 		cout<<"_____Ejecutando Conversion de numeros decimales a hexadecimales _______"<<endl;
-	 	numeros_decimales_a_hexadecimales();
+	 	numeros_decimales_hexadecimales();
 		}else 
 
 		if(num == 18){
 		cout<<"_____Ejecutando Matrix 3x3 _______"<<endl;
-	 	Matrix_3x3();
+	 	matriz_3x3();
 		}else
 
 		if(num == 9){
 		cout<<"_____Ejecutando Tablas de multiplicar del 1 al 10 _______"<<endl;
-	 	Tablas_multiplicar_1_al_10();
+	 	tablas_multiplicar_1_al_10();
 		}else 
 
 		if(num == 17){
 		cout<<"_____Ejecutando Mayor de tres numeros _______"<<endl;
-	 	Mayor_de_tres_numeros();
+	 	mayor_de_tres_numeros();
 		}else
 		
 				
