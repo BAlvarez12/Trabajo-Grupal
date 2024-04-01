@@ -26,7 +26,7 @@ std::string convertirNumeroALetras(int numero) {
     }
 }
 
-int main() {
+void numeros_enteros_a_letras() {
     int numero;
     std::cout << "Ingrese un número entre 1 y 100: ";
     std::cin >> numero;
@@ -37,5 +37,5 @@ int main() {
         std::cout << "Número fuera de rango." << std::endl;
     }
 
-    return 0;
+    system("pause");
 }
