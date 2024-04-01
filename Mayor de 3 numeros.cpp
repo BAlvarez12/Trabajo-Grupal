@@ -2,7 +2,7 @@
 
 using namespace std;
 // El programa solicita 3 numeros e identifica el mayor de los 3
-int main()
+void mayor_de_tres_numeros()
 {
 	int n1, n2, n3;
 	
@@ -32,5 +32,5 @@ int main()
 		}
 	}
 		
-	return 0;
+	system("pause");
 }

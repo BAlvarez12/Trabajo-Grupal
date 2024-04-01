@@ -1,6 +1,6 @@
 #include <iostream>
 //EL programa da las tablas del 1 al 10
-int main() {
+void tablas_multiplicar_1_al_10() {
     // Ciclo externo para iterar sobre los multiplicandos del 1 al 10
     for (int multiplicando = 1; multiplicando <= 10; ++multiplicando) {
         std::cout << "Tabla de multiplicar del " << multiplicando << ":" << std::endl;
@@ -13,5 +13,5 @@ int main() {
         std::cout << std::endl; // Separador entre tablas de multiplicar
     }
     
-    return 0;
+    system("pause");
 }

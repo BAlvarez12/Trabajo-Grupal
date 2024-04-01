@@ -122,17 +122,17 @@ int main(){
 
 		if(num == 4){
 		cout<<"_____Ejecutando determinar si una palabra o numero es polindromo_______"<<endl;
-	 	palabra_numero_polindromo();
+	 	palabra_o_numero_polindromo();
 		}else  
 
 		if(num == 6){
 		cout<<"_____Ejecutando Numeros enteros con decimal a letras_______"<<endl;
-	 	numeros_enteros_con_decimal_a_letras();
+	 	Conversion_numeros_enteros_a_letras();
 		}else  
 
 		if(num == 10){
 		cout<<"_____Ejecutando Crear de forma grafica multiplicacion manual _______"<<endl;
-	 	multiplicacion_manual();
+	 	Multiplicacion_forma_grafica();
 		}else  
 
 		if(num == 12){
